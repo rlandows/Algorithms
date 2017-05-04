@@ -11,6 +11,7 @@ def heap(array,sorted_arr)
   sorted_arr.unshift(array[-1])
 
    array.delete_at(-1)
+  #  sorted_arr << array.pop
    until array.length == 0
      heap(array, sorted_arr)
    end
@@ -30,7 +31,7 @@ def heapify(array, i)
 
 end
 
-array = (1..5000).map { rand(1..50) }
+array = (1..10000).map { rand(1..50) }
 puts heap(array, [])
 
 a = Benchmark.measure do |x|

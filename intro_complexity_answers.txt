@@ -1,0 +1,29 @@
+1. An algorithm that has O(1) is a Ferrari and an algorithm that has O(2^n) is a bicycle.
+
+2. The best case scenario for a binary search is that on the first iteration you find the number you were searching for.
+
+3. The worst case scenario for a binary search is that after continually iterating through the array, you find that the value you were searching for isn’t in the array.
+
+4. The bounded case scenario for a binary search is that you would find the value after several iterations.
+
+5.https://docs.google.com/spreadsheets/d/1TlJB9tFItQdmyX0yQnm-ZNT2HRns-qbu2rqE_Dgn_fk/edit?usp=sharing
+
+6. The asymptotic limit as n approaches infinity for this graph is infinity.
+
+7.The Big-O of an algorithm graphed above is O(2^n) since the graph is growing at an exponential rate.
+
+8. Since a linear search has a worst case of O(n), the worst case will always be the length of the array:
+
+def linear_worst_case(array)
+  print array.length
+end  
+
+as input, I had arrays of the following lengths: 4,7,15,100,500,1000
+
+9.https://docs.google.com/spreadsheets/d/1TlJB9tFItQdmyX0yQnm-ZNT2HRns-qbu2rqE_Dgn_fk/edit?usp=sharing
+
+10. worst case: O(logn)
+
+11. best case: O(1)
+
+12. bounded case: O(logn)
