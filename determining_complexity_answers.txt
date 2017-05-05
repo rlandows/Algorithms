@@ -1,0 +1,13 @@
+1. The Big-O of the goodbye_world function is O(1), because no matter what value you put into n, it will always return the puts statement and nothing else.
+
+2. The Big-O for the find_largest function would be O(n) because we are still iterating through the entire array in search for the largest number in the collection. So we will not know what the largest value is until the function runs through the entire collection.
+
+3. In this scenario of the largest_2D_array function it appears that we have a collection of arrays. So in order to find the largest one we start by naming the largest variable as the first value of the first array (collection[0][0]). From here we have a nested loop where we are iterating through the collection of arrays to find the single highest value, so this can not be good for speed. Due to this nested loop, the big-O run time would be O(n^2).
+
+4. For numbers recursive, since the function is calling itself with 2 recursive functions, numbers(n-1) and numbers(n-2), the big-o notation would be O(2^n). 
+	T(n) = T(n-1) + T(n-2) == T(n) = O(2^(n-1)) + O(2^(n-2)) = O(2^n)  
+
+5. For iterative function, the run time is going to be O(n) because the time of completion  is in direct relation to the size of the integer n, specifically because of the while i < n - 1.
+
+6. For the sort method, the big-o notation will be O(n^2). The following method is the quick sort method, and the worst case scenario is that on each recursion, the “wall” or pivot shifts only one value. Since there would only be one shift per n, it would take n times to solve it, so n * n = n^2. As you explained earlier today, the worst case for quick sort would be when it is sorting a nearly sorted array.
+	
