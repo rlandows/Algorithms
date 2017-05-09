@@ -1,0 +1,9 @@
+1. For the 1st problem, since we are iterating through a nested loop, we are going to go through the loop n*n times. Regardless of the while loop, this will be the main factor in determining our speed, so the big-o will be O(n).
+
+2. In the 2nd version, we’ve replaced the while loop with a merge sort function. This gives us a much faster speed than the 1st version. We are still using flatten so that will give us a nested loop of n*n = n^2. The merge sort gives us a big-0 of O(n log n). so we have: 
+
+	T(n) = T(n) + T(nlogn)
+
+we can ignore the n and the big-O notation will be O(nlogn).
+
+3. For the 3rd version, a hash has been utilized. Hashes take up more memory, but are faster to obtain information from. Since there is an loop nested inside of a while loop. This will cause the big-O notation to run at O(n^2).
